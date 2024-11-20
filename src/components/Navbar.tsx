@@ -23,7 +23,7 @@ const Navbar = () => {
             <span className="text-lavender">#</span>contacts
           </li>
         </ul>
-        <div className="flex flex-col items-start gap-[8px]">
+        <div className="sm:hidden flex flex-col items-start gap-[8px]">
           <span className="h-[1px] w-[26px] bg-lavender block"></span>
           <span className="h-[1px] w-[26px] bg-lavender block"></span>
           <span className="h-[1px] w-[13px] bg-lavender block"></span>
