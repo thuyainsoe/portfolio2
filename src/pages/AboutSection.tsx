@@ -17,20 +17,14 @@ const AboutSection = () => {
           {/* left section */}
           <div className="w-full sm:w-1/2 llg:w-[50.2930%]">
             <div className="flex mt-[23px] text-grayish text-base">
-              Hello, i’m Elias! <br />
-              <br /> I’m a self-taught front-end developer based in Kyiv,
-              Ukraine. I can develop responsive websites from scratch and raise
-              them into modern user-friendly web experiences.
-              <br />
-              <br />
-              Transforming my creativity and knowledge into a websites has been
-              my passion for over a year. I have been helping various clients to
-              establish their presence online. I always strive to learn about
-              the newest technologies and frameworks.
+              Hi, I'm a passionate frontend developer with over 2 years of
+              experience in creating clean, user-friendly designs and solving
+              complex problems. I specialize in React and Vue.js, and I thrive
+              on building intuitive UIs and bringing ideas to life through code!
             </div>
-            <button className="mt-[27px] w-fit border border-lavender py-[8px] px-[16px]">
+            {/* <button className="mt-[27px] w-fit border border-lavender py-[8px] px-[16px]">
               Read more {"->"}
-            </button>
+            </button> */}
           </div>
           {/* right section */}
           <div className="w-full sm:w-1/2 llg:w-[33.1055%] relative">

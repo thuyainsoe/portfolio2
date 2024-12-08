@@ -46,9 +46,8 @@ const SkillSection = () => {
                 </h3>
                 <div className="flex items-center gap-[8px] flex-wrap text-base text-grayish p-[8px]">
                   <span>TypeScript</span>
-                  <span>Lua</span>
-                  <span>Python</span>
                   <span>Javascript</span>
+                  <span>Python</span>
                 </div>
               </div>
             </div>
@@ -59,8 +58,6 @@ const SkillSection = () => {
                   Databases
                 </h3>
                 <div className="flex items-center gap-[8px] flex-wrap text-base text-grayish p-[8px]">
-                  <span>SQLite</span>
-                  <span>PostgreSQL</span>
                   <span>Mongo</span>
                 </div>
               </div>
@@ -71,10 +68,7 @@ const SkillSection = () => {
                 <div className="flex items-center gap-[8px] flex-wrap text-base text-grayish p-[8px]">
                   <span>HTML</span>
                   <span>CSS</span>
-                  <span>EJS</span>
                   <span>SCSS</span>
-                  <span>REST</span>
-                  <span>Jinja</span>
                 </div>
               </div>
             </div>
@@ -86,13 +80,9 @@ const SkillSection = () => {
                 </h3>
                 <div className="flex items-center gap-[8px] flex-wrap text-base text-grayish p-[8px]">
                   <span>VSCode</span>
-                  <span>Neovim</span>
                   <span>Linux</span>
                   <span>Figma</span>
-                  <span>XFCE</span>
-                  <span>Arch</span>
                   <span>Git</span>
-                  <span>Font Awesome</span>
                 </div>
               </div>
               <div className="w-full border border-grayish">
@@ -102,9 +92,6 @@ const SkillSection = () => {
                 <div className="flex items-center gap-[8px] flex-wrap text-base text-grayish p-[8px]">
                   <span>React</span>
                   <span>Vue</span>
-                  <span>Disnake</span>
-                  <span>Discord.js</span>
-                  <span>Flask</span>
                   <span>Express.js</span>
                 </div>
               </div>

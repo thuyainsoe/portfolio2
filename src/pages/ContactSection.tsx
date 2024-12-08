@@ -1,4 +1,4 @@
-import { DiscordLogo, MailLogo } from "@/components/Icon";
+import { MailLogo } from "@/components/Icon";
 
 const ContactSection = () => {
   return (
@@ -26,10 +26,10 @@ const ContactSection = () => {
               <h3 className="text-base font-[600] text-white mb-[16px]">
                 Message me here
               </h3>
-              <div className="flex items-center gap-[5px] font-normal text-grayish">
+              {/* <div className="flex items-center gap-[5px] font-normal text-grayish">
                 <DiscordLogo />
                 <span>!Elias#3519</span>
-              </div>
+              </div> */}
               <div className="flex items-center gap-[5px] font-normal text-grayish">
                 <MailLogo />
                 <span>thuyainsoe163361@gmail.com</span>

@@ -1,4 +1,4 @@
-import { DiscordLogo, FigmaLogo, GithubLogo, Logo } from "@/components/Icon";
+import { GithubLogo, LinkedInLogo, Logo } from "@/components/Icon";
 
 const FooterSection = () => {
   return (
@@ -7,28 +7,34 @@ const FooterSection = () => {
         <div className="w-full flex-col sm:flex-row gap-y-[20px] flex sm:items-center justify-between">
           {/* left section */}
           <div className="flex flex-col items-start gap-[16px]">
-            <div className="flex items-center gap-[24px]">
+            <div className="flex items-start gap-[12px] flex-col">
               <div className="text-base font-bold flex items-center gap-[8px]">
-                <Logo /> Elias
+                <Logo /> Thurein
               </div>
-              <span className="text-grayish text-base">elias@elias-dev.ml</span>
+              <span className="text-grayish text-base">
+                thuyainsoe163361@gmail.com
+              </span>
             </div>
-            <div className="text-base text-white">
-              Web designer and front-end developer
-            </div>
+            <div className="text-base text-white">Web Frontend Developer</div>
           </div>
           {/* right section */}
           <div className="flex flex-col items-start gap-[12px]">
             <h2 className="text-2xl">Media</h2>
             <div className="flex items-center gap-[8px]">
-              <GithubLogo />
-              <FigmaLogo />
-              <DiscordLogo />
+              <a href="https://github.com/thuyainsoe" target="_blank">
+                <GithubLogo />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/thu-yain-soe-b49a2b242/"
+                target="_blank"
+              >
+                <LinkedInLogo />
+              </a>
             </div>
           </div>
         </div>
         <span className="flex w-full sm:items-center sm:justify-center">
-          © Copyright 2022. Made by Elias
+          © Copyright 2022. All rights reserved.
         </span>
       </div>
     </div>

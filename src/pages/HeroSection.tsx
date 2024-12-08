@@ -9,12 +9,13 @@ const HeroSection = () => {
         {/* left section */}
         <div className="w-full md:w-[52.4414%] pt-[62px]">
           <h3 className="text-white text-[28px] lg:text-[32px] font-[600] leading-normal">
-            Elias is a <span className="text-lavender">web designer</span> and
-            <span className="text-lavender"> front-end developer</span>
+            Hi, I'm <span className="text-lavender">Thurein Soe</span>, a
+            <span className="text-lavender"> frontend developer</span> who loves
+            building user-friendly websites.
           </h3>
-          <p className="text-grayish text-base mt-[20px] lg:mt-[25px]">
+          {/* <p className="text-grayish text-base mt-[20px] lg:mt-[25px]">
             He crafts responsive websites where technologies meet creativity
-          </p>
+          </p> */}
           <button className="mt-[20px] lg:mt-[24px] border border-lavender w-[148px] h-[37px] flex items-center justify-center">
             Contact Me
           </button>
@@ -42,8 +43,8 @@ const HeroSection = () => {
           >
             <div className="min-w-[16px] h-[16px] bg-lavender"></div>
             <span className="text-grayish text-base text-nowrap">
-              Currently working on
-              <span className="font-bold text-white"> Portfolio</span>
+              Bringing ideas to life at
+              <span className="font-bold text-white">...</span>{" "}
             </span>
           </div>
         </div>

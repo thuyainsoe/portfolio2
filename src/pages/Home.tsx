@@ -13,17 +13,25 @@ const Home = () => {
       {/* navbar */}
       <Navbar />
       {/* hero section */}
-      <HeroSection />
+      <div id="home">
+        <HeroSection />
+      </div>
       {/* quote section */}
       <QuoteSection />
       {/* projects section */}
-      <ProjectSection />
+      <div id="projects">
+        <ProjectSection />
+      </div>
       {/* skills section */}
       <SkillSection />
       {/* about me section */}
-      <AboutSection />
+      <div id="aboutme">
+        <AboutSection />
+      </div>
       {/* contact section */}
-      <ContactSection />
+      <div id="contact">
+        <ContactSection />
+      </div>
       {/* footer section */}
       <FooterSection />
     </div>
